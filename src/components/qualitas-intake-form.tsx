@@ -33,7 +33,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -42,7 +42,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -53,7 +53,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -62,7 +62,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -71,7 +71,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -103,7 +103,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
@@ -123,7 +123,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -132,7 +132,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -141,7 +141,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -156,7 +156,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -165,7 +165,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -174,7 +174,7 @@ export function QualitasIntakeForm({
                     <Input
                       id="email"
                       type="email"
-                      placeholder="m@example.com"
+                      placeholder=" "
                       required
                     />
                   </div>
@@ -186,7 +186,7 @@ export function QualitasIntakeForm({
                 <Input
                   id="email"
                   type="email"
-                  placeholder="m@example.com"
+                  placeholder=" "
                   required
                 />
               </div>
