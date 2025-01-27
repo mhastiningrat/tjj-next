@@ -15,14 +15,13 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 // import Dashboard from "../dashboard/page"
-import { ReactNode } from "react"
-// import QualitasIntake from "../qualitas-intake/pages"
-// import { DoubleBarChart } from "../sales-chart/pages"
-interface PageProps {
-  children?: ReactNode
-  page?: string
-}
-export default function Sidebar({children,page}: PageProps) {
+import React from "react"
+
+type PageProps = {
+  children?: React.ReactNode; // Define children as optional ReactNode
+  halaman:string
+};
+const Page: React.FC<PageProps> = ({ children, halaman }) => {
   return (
     <SidebarProvider>
       <AppSidebar />
@@ -40,7 +39,7 @@ export default function Sidebar({children,page}: PageProps) {
                 </BreadcrumbItem>
                 <BreadcrumbSeparator className="hidden md:block" />
                 <BreadcrumbItem>
-                  <BreadcrumbPage>{page}</BreadcrumbPage>
+                  <BreadcrumbPage>{halaman}</BreadcrumbPage>
                 </BreadcrumbItem>
               </BreadcrumbList>
             </Breadcrumb>
@@ -62,3 +61,5 @@ export default function Sidebar({children,page}: PageProps) {
     </SidebarProvider>
   )
 }
+
+export default Page;

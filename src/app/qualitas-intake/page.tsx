@@ -4,7 +4,7 @@ import Sidebar from "../halaman-utama/page";
 
 const QualitasIntake = () => {
   return (
-    <Sidebar page="Qualitas Intake">
+    <Sidebar halaman="Qualitas Intake">
       <QualitasIntakeForm />
     </Sidebar>
   );

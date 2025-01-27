@@ -6,7 +6,7 @@ import Sidebar from '../halaman-utama/page'
 const Pages = () => {
   return (
     <>
-    <Sidebar page="Dashboard">
+    <Sidebar halaman="Dashboard">
       <div className='grid lg:grid-cols-2 gap-4'>
           <SalesChart/>
           <KualitasChart/>
