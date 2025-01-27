@@ -1,3 +1,4 @@
+'use client'
 import { AppSidebar } from "@/components/app-sidebar"
 import {
   Breadcrumb,
@@ -19,7 +20,7 @@ import { ReactNode } from "react"
 // import { DoubleBarChart } from "../sales-chart/pages"
 interface PageProps {
   children?: ReactNode
-  page: string
+  page?: string
 }
 export default function Sidebar({children,page}: PageProps) {
   return (
