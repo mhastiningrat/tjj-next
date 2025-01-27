@@ -14,11 +14,14 @@ import {
   SidebarTrigger,
 } from "@/components/ui/sidebar"
 // import Dashboard from "../dashboard/page"
-import React from "react"
+import { ReactNode } from "react"
 // import QualitasIntake from "../qualitas-intake/pages"
 // import { DoubleBarChart } from "../sales-chart/pages"
-
-export default function Sidebar({children,page}: { children: React.ReactNode,page:string }) {
+interface PageProps {
+  children?: ReactNode
+  page: string
+}
+export default function Sidebar({children,page}: PageProps) {
   return (
     <SidebarProvider>
       <AppSidebar />
